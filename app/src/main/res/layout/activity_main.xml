@@ -26,11 +26,11 @@
         android:id="@+id/TitleText"
         android:layout_marginRight="50dp" />
 
-    <TextView
-        android:layout_width="match_parent"
+    <ListView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/courseListView"
-        android:layout_below="@+id/imageView"
-        android:layout_toStartOf="@+id/TitleText" />
+        android:id="@+id/list"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView" />
+
 </RelativeLayout>

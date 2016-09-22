@@ -42,13 +42,14 @@
     </ScrollView>
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/imageCourse"
         android:layout_gravity="bottom|left"
         android:src="@drawable/android"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -57,17 +58,16 @@
         android:weightSum="1"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/imageCourse">
+        android:layout_alignParentRight="true">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/courseNoText"
-            android:layout_gravity="right"
             android:layout_weight="0.02"
-            android:textSize="20dp" />
+            android:textSize="30dp"
+            android:textColor="#a134ad" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,15 +75,15 @@
             android:text="New Text"
             android:id="@+id/creditsText"
             android:layout_weight="0.02"
-            android:textSize="20dp" />
+            android:textSize="30dp"
+            android:textColor="#ee6fe8" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="register"
             android:id="@+id/button"
-            android:layout_weight="0.02"
-            android:layout_marginTop="300dp" />
+            android:layout_weight="0.02" />
 
     </LinearLayout>
 
